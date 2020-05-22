@@ -1,0 +1,244 @@
+.header{
+		background-size: cover;
+		background-attachment: fixed;
+		width: 100%;
+		height: 1000px;
+		opacity: 10%;
+		background-color: #25252a99;
+		margin-top: -10px;
+	}
+	.banner{
+			max-width: 100%;
+			z-index: -1;		
+			margin-top: 0px;
+
+
+	}
+	.slider{
+			width: 100%;
+		    display:none;
+		  }
+	.head {
+			height: 100%;
+			width: 100%;
+			z-index: 0;
+			overflow: hidden;
+			margin-top: 7%;
+			position: absolute;
+		}
+.nav {
+	position: fixed;
+	margin-top: -0.5%;
+	overflow: hidden;
+	background-color: #2026a1cc;
+	height: 11%;
+	width: 100%;
+	z-index: 1;
+}
+.logo{
+		
+		padding: 15px;
+		margin-left: 38px;
+		margin-top: -40px;
+		
+		}
+.menu{
+		float:right;
+		margin-top: -150px;
+		padding-right: 20px;
+		padding-left: 20px;
+		margin-left: 900px;
+
+		}
+.menu a{
+		color: white;
+		padding-right: 20px;
+		padding-left: 10px;
+		font-size: 20px;	
+		font-weight: bold;
+		text-underline-position: none;
+
+		}
+.menu a:link{
+
+	text-decoration: none;
+}
+.menu a:hover{
+	color: white;
+	background-color: #ff0b0bb3;
+	padding: 45px;
+	font-size: 25px;
+}
+.headertxt{
+			color: #001f4e;
+			margin-left: 20%;
+			text-align: justify;
+
+			
+			
+
+		}
+.headertxt h1{
+	font-family: 'Galada', cursive;
+	font-size: 60px;
+}
+.headertxt h2{
+	font-family: 'Voltaire', sans-serif;
+}
+.what{
+		background-color: #2079de;
+		color: white;
+		height:6%;
+		text-align: center;
+		margin-top: -40px;
+      }
+ .what p {
+ 			font-size: 35px;
+ 			padding-top: 10px;
+ 		}
+ .do{
+ 	width:100%;
+ 	
+ 	
+}
+.box{
+	width:100%;
+	display: inline-block;
+	
+}
+.subbox{
+	width:33.3%;
+	float: right;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+
+}
+.subbox img{
+	width:100%;
+	height:60%;
+}
+.subbox2{
+	width:33.3%;
+	float: right;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+
+}
+.sub2_cnt{
+	text-align: center;
+	margin-right: 0px;
+	margin-left:  0px;
+	color: s;
+}
+.sub2_cnt h1{
+ 				 margin-left: 280px;
+ 				 margin-right: 0px;
+ 				 color: #050a2c;
+ 				 width: 8%;
+ 				 
+
+ 			}
+ .sub2_cnt p{
+ 				color: black;
+ 				font-size: 20px;
+}
+.dream{
+		background-color: #2079de;
+		color: white;
+		height:8%;
+		text-align: center;
+		margin-top: 400px;
+}
+ .dream p {
+ 			font-size: 25px;
+ 			padding-top: 10px;
+ 		}
+.parrallel1{
+						background-image: url(images/dream.jpg);
+						height:60%;
+						background-repeat: no-repeat;
+					    background-attachment: fixed;
+						background-size:cover;
+					    font-size:30px;
+						padding-top:200px;
+						padding-right:400px;
+						padding-left:400px;
+						color: white;
+						text-align: center;
+					}
+.client{
+	width: 100%
+	height:450px;
+	padding-top:  70px;
+	padding-bottom:  20px;
+}
+
+.clientcnt{
+
+	height: 445px;
+	background-color: #2079de;
+}
+
+.clientsubbox{
+
+	width:20%;
+	float: right;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	padding-right: 200px;
+	height: 200px;
+
+}
+.clientsubbox p{
+	text-align: left;
+}
+.clientimg{
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.subblog{
+	float: left;
+	padding-left: 75px;
+	width: 20%;
+}
+.subblog img{
+			height:200px;
+			width: 400px;
+
+}	
+.footer{
+		background:url(images/footer.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+		width: 100%;
+		height: 300px;
+		margin-top: 400px;
+}	
+.subfooter{
+	color: white;
+	float: left;
+	width: 30%;
+	padding-top: 50px;
+	margin-left: 50px;
+
+}	
+.subfooter h2 {
+	font-size: 25PX;
+}
+.subfooter p{
+	font-size: 15px;
+	text-align: justify;
+}
+
+
+		
+
+
+
+

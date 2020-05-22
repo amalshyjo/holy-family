@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<h2>Accordion</h2>
+
+<button class="accordion">Section 1</button>
+<div class="panel">
+    <div class="row" style="background-color: #9775be1a; ">
+    <div class="col-sm-12 container" style="text-align: center; ">
+        <h1>Our Departments</h1>
+        <p style="padding: 2%; font-size: 16px;">
+            There are 18 departments functioning in this hospital. They are General Medicine, General & laparoscopic surgery, Neuro surgery, Urology, Cardiology, Pulmonology, Maxillofacial Surgery, Gastroenterology, Neonatology, Paediatrics, Obstetrics & Gynaecology, Orthopaedics & Joint Replacement Surgery, Otorhinolaryngology, Dermato - Venereology, Ophthalmology, Dentistry, OAC Child Care, Pain & Palliative Care unit. We have twenty four hours Casualty and Trauma Care Unit with well equipped Theatre complex and intensive care units, computerized laboratory units, Blood Bank, Computerized X-ray, Mammography, Modern 1.5 Tesla MRI, Spiral CT Scan, Color Doppler and Ultrasonography etc. 
+        </p>
+        <div>
+            <style type="text/css">
+                .list_check li{
+                    padding-top: 5%; 
+                    font-size: 16px;
+                }
+                .list_check li{
+                    border-bottom: solid grey 0.01px;
+                    border-color: blue;
+
+                }
+            </style>
+        <div class="col-sm-3">
+                        <div class="list">
+                        <ul class="list_check" style="list-style-image: url(images/list_check.png); color:black; text-decoration: none; text-align: justify;"> 
+                                            <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/general-medicine/">General Medicine </a>  </li>
+                                            <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/general-laparoscopic-surgery/">General &amp; Laparoscopic Surgery</a> </li>
+                                            <li><a style="color:black; text-decoration: none;"  href="http://holyfamilyhospitals.com/neuro-surgery/">Neuro Surgery</a> </li>
+                                            <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/urology/">Urology</a></li>
+                                            <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/cardiology/">Cardiology</a></li>
+                                            <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/pulmonology/">Pulmonology</a> </li>
+                        </ul>
+                        </div>
+                    </div>
+        <div class="col-sm-3">
+                        <div class="list">
+                        <ul class="list_check" style="list-style-image: url(images/list_check.png); color:black; text-decoration: none;text-align: justify;">
+                                            <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/gastroenterology-and-hepatology/">Gastroenterology &amp;  Hepatology</a> </li>
+                                            <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/neonatology/">Neonatology</a></li>
+                                            <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/paediatrics/">Paediatrics </a></li>
+                                            <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/obstetrics-gynaecology/">Obstetrics &amp; Gynaecology</a></li>
+                                            <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/orthopaedics-joint-replacement-surgery/">Orthopaedics & Joint Replacement Surgery</a></li>
+                                            <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/otorhinolaryngology-ent-audiology/">Otorhinolaryngology (ENT) &amp; Audiology</a></li>
+                        </ul>
+                        </div>
+                    </div>
+        <div class="col-sm-3">
+                        <div class="list">
+                        <ul class="list_check" style="list-style-image: url(images/list_check.png); color:black; text-decoration: none;text-align: justify;">
+                                        <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/dermato-venereology/">Dermato - Venereology </a></li>
+                                        <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/ophthalmology/">Ophthalmology</a></li>
+                                        <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/dentistry/">Dentistry</a></li>
+                                        <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/oral-and-maxillofacial-surgery/">Oral &amp; Maxillofacial Surgery</a></li>
+                                        <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/anaesthesiology/">Anaesthesiology</a></li>
+                                        <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/psychomedicine/">Psychomedicine </a></li>
+                                        <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/pain-palliative-care/">Pain &amp; Palliative Care</a></li>
+                        </ul>
+                        </div>
+                    </div>
+        <div class="col-sm-3">
+                        <div class="list">
+                        <ul class="list_check" style="list-style-image: url(images/list_check.png); color:black; text-decoration: none;text-align: justify;">
+                                        <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/casualty-and-trauma-care-unit/">Casualty and Trauma Care Unit</a> </li>
+                                        <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/radiology/">Radiology</a></li>
+                                        <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/nutrition-dietetics/">Nutrition  &amp; Dietetics</a> </li>
+                                        <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/laboratory/">Laboratory</a> </li>
+                                        <li><a style="color:black; text-decoration: none;" href="http://holyfamilyhospitals.com/blood-bank/">Blood Bank</a></li>
+                        </ul>
+                        </div>
+        </div>
+              </div>
+
+
+    </div>
+    </div>
+
+
+
+</div>
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+
+</body>
+</html>
